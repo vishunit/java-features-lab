@@ -1,26 +1,24 @@
-# ☕ Java Modern Features Playground
+# Java Features Lab 🧪
 
-This repository contains simple, self-contained Java examples demonstrating modern language features from Java 16 onward — such as **records**, **virtual threads**, and other useful syntax improvements.
+A hands-on laboratory for exploring modern Java features (Java 8+), design patterns, and best practices.
 
-> ✅ Ideal for quick experimentation, learning, and reference.
+## 🚀 Features
+- **Java Version Showcase**: Examples from Java 8 to Java 21
+- **Modular Examples**: Self-contained feature demonstrations
+- **Practical Snippets**: Ready-to-use code templates
+- **Design Patterns**: Common patterns with Java implementations
 
----
+## 📋 Prerequisites
+- **JDK 17+** (Recommended: [Amazon Corretto 21](https://aws.amazon.com/corretto/))
+- **Maven 3.9+** (For example projects)
+- **IDE** (IntelliJ IDEA, VSCode, or Eclipse)
 
-## 🔍 What’s Inside?
-
-| Feature        | Description                                 | Java Version |
-|----------------|---------------------------------------------|--------------|
-| `RecordExample`       | Demonstrates use of `record` for immutable data objects | Java 16+ |
-| `VirtualThreadExample`| Shows how to use lightweight virtual threads | Java 21+ |
-
----
-
-Prerequisites
-Java 16 or later for record
-
-Java 21 or later for virtual threads
-
-A modern IDE like IntelliJ IDEA (recommended)
-
-Git (for version control)
-
+## 🏗️ Project Structure
+src/
+├── main/
+│ ├── java/
+│ │ ├── features/ # Modern Java features
+│ │ ├── patterns/ # Design patterns
+│ │ └── concurrency/ # Multithreading examples
+├── test/ # JUnit examples
+pom.xml # Maven configuration
